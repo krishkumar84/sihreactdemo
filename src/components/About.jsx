@@ -6,6 +6,12 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import {RoundedButtons } from './btn';
+
+
+ <div className="z-10 ml-10">
+  <RoundedButtons/>
+ </div>
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -35,9 +41,13 @@ const ServiceCard = ({ index, title, icon }) => (
   </Tilt>
 );
 
+
+
 const About = () => {
   return (
     <>
+   
+
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
