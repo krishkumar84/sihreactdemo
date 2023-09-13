@@ -85,7 +85,7 @@ const Works = () => {
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
           and manage projects effectively. <br />
-          <a href="https://krishkumar84.github.io/qrgenerator-reader/">
+          <a target="_blank" href="https://krishresume2023.netlify.app/">
   more project(click on this text)</a>
         </motion.p>
       </div>
