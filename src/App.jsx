@@ -1,7 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
-import { RoundedButtons } from "./components/btn";
 
 const App = () => {
   return (
@@ -11,7 +10,6 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <RoundedButtons/>
         <About />
         <Experience />
         <Works />

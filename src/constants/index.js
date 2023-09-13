@@ -36,26 +36,26 @@ import {
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "contact",
     },
   ];
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
+      title: "Fullstack Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "React JS",
+      icon: reactjs,
+    },
+    {
+      title: "MongoDB",
+      icon: mongodb,
+    },
+    {
+      title: "git",
+      icon: git,
     },
   ];
   
@@ -116,55 +116,55 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Done Schooling",
+      company_name: "",
+      icon: mobile,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "April 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Knowledge and problem-solving: Thirst for knowledge and passion for problem-solving.",
+        "Learning and critical thinking: Deep appreciation for learning and critical thinking.",
+        "Technology: Fascinated with technology and its transformative potential.",
+        "Beginning of a journey  eager to continue learning and using their skills to make a difference in the world. ",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "B.Tech In Computer Science",
+      company_name: "",
+      icon: creator,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "2022 -  2026",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Journey: My journey into Computer Science began here.",
+        "Immersion: I immersed myself in programming, algorithms, and software engineering.",
+        "Skills: I honed my skills in turning concepts into functional applications.",
+        "Foundation: The experiences and knowledge gained have provided me with a strong foundation.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Web Developer Intern ",
+      company_name: "Codesoft",
+      icon: mobile,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "June 2023 - July 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaboration: Collaborated with a cross-functional team to develop responsive web apps using React.js and Node.js.",
+        "Technologies: Gained practical experience with React.js and Node.js, implementing dynamic features and enhancing UI.",
+        "Features: Contributed to UI enhancements and implemented dynamic features.",
+        "Coding: Refined coding skills and learned best practices in version control and code review.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: " Web Development Projects",
+      company_name: "Freelance",
+      icon: web,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Client-oriented: Worked with diverse clients to bring their digital visions to life.",
+        "Technical expertise: Proficient in HTML, CSS, JavaScript, and various frameworks.",
+        "Communication and project management: Refined communication and project management skills.",
+        "Client satisfaction: Ensured that each project aligned with the client's goals and exceeded their expectations.",
       ],
     },
   ];
@@ -198,37 +198,36 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "News Web",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web application made with Node.js and React.js that uses the News API to render news dynamically and show it to users. The frontend is very good and provides a convenient and efficient way to consume news.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "express",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "rest api",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://news-express-ppgi.onrender.com/",
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      name: "Frontend Web",
+      description:" I created a banking web application with a great user interface using React, Tailwind, Vite, and Node.js. The application is built on a React frontend with Tailwind CSS for styling. Vite is used to speed up the development process, and Node.js ",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "node",
           color: "green-text-gradient",
         },
         {
@@ -237,19 +236,19 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://krishfirstreactproject.netlify.app/",
     },
     {
-      name: "Trip Guide",
+      name: "QR Reader & Generator",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        " developed a web app that can create QR codes, read QR codes, and has parallax scrolling, all with HTML, CSS, and JavaScript with qr code generator and reador api with faq section and fully reasponsive to any device.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "parallax",
           color: "green-text-gradient",
         },
         {
@@ -258,7 +257,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://krishkumar84.github.io/qrgenerator-reader/",
     },
   ];
   
